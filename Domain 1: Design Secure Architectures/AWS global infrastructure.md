@@ -146,19 +146,23 @@ AWS data centers contain infrastructure such as:
   
 How data centers relate to Regions and AZs
 
+# AWS Region Hierarchy
+
+```text
 AWS Region
-   |
-   +-- Availability Zone A
-   |      +-- Data Center 1
-   |      +-- Data Center 2
-   |
-   +-- Availability Zone B
-   |      +-- Data Center 3
-   |      +-- Data Center 4
-   |
-   +-- Availability Zone C
-          +-- Data Center 5
-          +-- Data Center 6
+├── Availability Zone A
+│   ├── Data Center 1
+│   └── Data Center 2
+│
+├── Availability Zone B
+│   ├── Data Center 3
+│   └── Data Center 4
+│
+└── Availability Zone C
+    ├── Data Center 5
+    └── Data Center 6
+```
+ 
 
   This is a conceptual example, not a representation of a particular AWS Region.
 
