@@ -11,7 +11,10 @@ By the end of this guide, you should be able to:
 4. Select an appropriate AWS Region for a workload.
 5. Design highly available applications across multiple AZs.
 6. Understand regional versus global AWS services.
-7. Explain how latency, data residency, and compliance affect architecture.
+7. Understand AWS Wavelength Zones
+8. Understand AWS Outposts
+9. Understand AWS Global Network and CloudFront
+10. Understand AWS Infrastructure Resilience
 
 
 ## Understand the AWS Global Infrastructure Hierarchy
