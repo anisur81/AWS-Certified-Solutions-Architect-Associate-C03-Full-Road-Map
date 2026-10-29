@@ -145,6 +145,7 @@ AWS data centers contain infrastructure such as:
 - Physical security controls.
   
 How data centers relate to Regions and AZs
+
 AWS Region
    |
    +-- Availability Zone A
@@ -167,6 +168,17 @@ The design helps isolate failures and supports the deployment of resilient appli
 For example, a workload distributed across multiple AZs can be designed to continue operating if one AZ experiences a problem.
 However, physical redundancy alone does not make an application highly available. Application architecture, networking, data replication, 
 monitoring, and failover configuration also matter.
+
+### Data center versus edge location
+
+| Feature | Data center | Edge location |
+|---|---|---|
+| Primary purpose | Run underlying cloud infrastructure | Support content delivery and edge networking |
+| Typical resources | Servers, storage, networking equipment | Edge networking and supported edge services |
+| Application hosting | Provides infrastructure for supported compute services | Not a general replacement for an AWS Region |
+| Content caching | Not its defining purpose | Commonly used by CloudFront |
+| Geographic strategy | Organized into AZs and Regions | Distributed near users and networks |
+| Example | Infrastructure supporting EC2 instances | CloudFront point of presence |
 
 ## Understand AWS Edge Locations
 What is an edge location?
