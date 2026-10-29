@@ -195,7 +195,27 @@ Origin Server
   v
 Return content and cache it when appropriate
 
+### Data center versus edge location
 
+
+| Feature | Data center | Edge location |
+|---|---|---|
+| Primary purpose | Run underlying cloud infrastructure | Support content delivery and edge networking |
+| Typical resources | Servers, storage, networking equipment | Edge networking and supported edge services |
+| Application hosting | Provides infrastructure for supported compute services | Not a general replacement for an AWS Region |
+| Content caching | Not its defining purpose | Commonly used by CloudFront |
+| Geographic strategy | Organized into AZs and Regions | Distributed near users and networks |
+| Example | Infrastructure supporting EC2 instances | CloudFront point of presence |
+
+### When should you use edge locations?
+Use CloudFront and edge delivery when you need:
+- Faster delivery of static website content.
+- Global distribution of downloadable files.
+- Reduced load on your origin servers.
+- Support for global audiences.
+- Integration with AWS edge security features, such as AWS WAF.
+- Improved delivery performance for supported dynamic and streaming workloads.
+SAA-C03 exam tip: If a question asks how to reduce latency when delivering website images to users around the world, consider Amazon CloudFront rather than creating an EC2 server in every country.
 
 ## Understand Local Zones
 What is an AWS Local Zone?
@@ -206,6 +226,7 @@ Example
 Imagine you operate a video-editing application where users need responsive access to compute resources near a particular city.
 
 A Local Zone may help reduce the network latency between users and the application.
+
 ### How Local Zones work
 
               Parent AWS Region
