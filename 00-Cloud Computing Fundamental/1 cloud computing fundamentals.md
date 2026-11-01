@@ -193,8 +193,13 @@ Organizations select deployment models based on:
 - Regulatory and compliance obligations
 - Infrastructure management capabilities
 - Business continuity and disaster recovery
+## 1. Public Cloud
+## 2. Private Cloud
+## 3. Hybrid Cloud
+## 3. Community Cloud
 
-## 🌍 2. Public Cloud
+--
+## 1. Public Cloud
 
 A **public cloud** is an environment in which a cloud provider offers computing resources and services to multiple customers over the internet or private network connections.
 
@@ -241,7 +246,7 @@ The provider operates the underlying infrastructure, while customers configure a
 
 A company deploys a web application using Amazon EC2, Amazon RDS, and Amazon S3. It scales its resources as demand increases and pays for the services it consumes.
 
-### 🏢 3. Private Cloud
+### 2. Private Cloud
 
 A **private cloud** is cloud infrastructure dedicated to a single organization. It can be hosted in the organization's own data center or operated by a third-party provider.
 
@@ -284,7 +289,7 @@ Private cloud infrastructure provides greater control over the environment, but 
 
 **Important:** Using a VPC in AWS does not make an environment a private cloud in the traditional deployment-model sense. A VPC is a logically isolated virtual network within the public AWS cloud.
 
-### 🔗 4. Hybrid Cloud
+## 3. Hybrid Cloud
 
 A **hybrid cloud** combines private infrastructure with public cloud services, with integration or connectivity that allows workloads and data to work across both environments.
 
@@ -327,7 +332,7 @@ A bank keeps a legacy core banking system in its data center while deploying cus
 
 The architecture must also account for latency, identity, encryption, availability, and data consistency.
 
-## 👥 5. Community Cloud
+## 4. Community Cloud
 
 A **community cloud** is infrastructure shared by several organizations with common requirements, such as security, regulatory, policy, or operational needs.
 
@@ -362,7 +367,7 @@ It may be managed by one or more participating organizations or by a third-party
 - Research institutions sharing computing resources
 - Organizations operating under common regulatory frameworks
 
-### 🌐 6. Multicloud Strategy
+### Multicloud Strategy
 
 **Multicloud** means using services from two or more cloud providers. For example, an organization might use AWS for application hosting and Google Cloud for a specific analytics workload.
 
@@ -403,7 +408,7 @@ An organization hosts its primary application on AWS and runs selected data proc
 
 *Cost, control, and scalability depend on the actual implementation, service choices, and operational model.*
 
-## 🧭 8. Real-World Examples
+## Real-World Examples
 
 ### Example 1: E-commerce Company — Public Cloud
 
@@ -427,7 +432,7 @@ A company uses AWS for application infrastructure and another cloud provider for
 
 ---
 
-### 🎯 9. How to Choose a Deployment Model
+###  How to Choose a Deployment Model
 
 Consider these questions before selecting a model:
 
@@ -439,7 +444,7 @@ Consider these questions before selecting a model:
 6. **Connectivity:** Must cloud resources integrate with on-premises systems?
 7. **Resilience:** What recovery time and data-loss limits are acceptable?
 
-
+--
 # Top 7 Privacy Challenges in Cloud Computing
 
 The rapid development of cloud computing has led to greater flexibility, cost reduction, and scalability of products. However, it also presents numerous privacy and security challenges. Since cloud computing is continuously evolving, new security issues may emerge and must be addressed as soon as they are discovered.
