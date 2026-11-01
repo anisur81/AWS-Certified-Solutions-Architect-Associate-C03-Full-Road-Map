@@ -85,6 +85,67 @@ Protects workloads using least-privilege access, encryption, secrets management,
 6. Operations Layer
 Supports monitoring, logging, auditing, automated deployment, backup, and incident response.
 
+#### networking?
+Cloud networking is the communication infrastructure that connects users, applications, servers, databases, storage, and other cloud resources.
+
+It enables cloud resources to communicate with each other and allows users to access applications over the internet or private networks.
+
+#### virtualization
+Virtualization is a technology that allows multiple virtual computing environments to run on a single physical hardware system.
+
+It uses software called a Hypervisor to create and manage virtual machines (VMs).
+
+Each virtual machine can have its own:
+- Operating system.
+- CPU allocation.
+- RAM allocation.
+- Virtual storage.
+- Network interface.
+- Applications.
+
+In simple words: Virtualization allows one physical server to behave like multiple independent virtual servers.
+
+
+#### Security in Cloud Computing
+I'm treating your second use of "Virtualization" as Security, since security is the other major component of cloud architecture.
+3.1 What is cloud security?
+Cloud security is the collection of technologies, policies, processes, and controls used to protect cloud infrastructure, applications, identities, networks, and data from unauthorized access, attacks, data loss, and service disruption.
+
+In simple words: Cloud security protects cloud resources and information from security threats.
+
+#### Management and Monitoring in Cloud Computing
+
+What is cloud management?
+Cloud management refers to the processes, tools, and services used to provision, configure, operate, automate, and control cloud resources.
+
+It helps organizations manage:
+- Virtual machines.
+- Networks.
+- Storage.
+- Databases.
+- Applications.
+- User permissions.
+- Infrastructure costs.
+- Cloud resource availability.
+
+In simple words: Cloud management ensures that cloud infrastructure is properly configured, operated, automated, and optimized.
+
+What is cloud monitoring?
+Cloud monitoring is the continuous observation and measurement of cloud infrastructure, applications, networks, and services.
+
+It helps identify:
+- CPU utilization.
+- Memory utilization.
+- Disk usage.
+- Network traffic.
+- Application performance.
+- Service availability.
+- Errors and failures.
+- Security events.
+- Resource consumption.
+
+In simple words: Cloud monitoring helps you understand what is happening inside your cloud environment and identify problems before they seriously affect users.
+
 
 ### Core Component of Cloud Computing Architecture 
 1. Hypervisor :
