@@ -193,6 +193,7 @@ Organizations select deployment models based on:
 - Regulatory and compliance obligations
 - Infrastructure management capabilities
 - Business continuity and disaster recovery
+  
 ## 1. Public Cloud
 ## 2. Private Cloud
 ## 3. Hybrid Cloud
@@ -392,7 +393,7 @@ Multicloud is a strategy rather than one of the four traditional NIST cloud depl
 
 An organization hosts its primary application on AWS and runs selected data processing workloads on Google Cloud. It needs secure connectivity, consistent access controls, and a plan for data movement and operational monitoring.
 
----
+--
 
 ## 📊 7. Comparison of Deployment Models
 
