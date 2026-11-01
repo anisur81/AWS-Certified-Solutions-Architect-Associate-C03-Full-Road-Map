@@ -199,7 +199,7 @@ Organizations select deployment models based on:
 ## 3. Hybrid Cloud
 ## 3. Community Cloud
 
---
+---
 ## 1. Public Cloud
 
 A **public cloud** is an environment in which a cloud provider offers computing resources and services to multiple customers over the internet or private network connections.
@@ -393,7 +393,7 @@ Multicloud is a strategy rather than one of the four traditional NIST cloud depl
 
 An organization hosts its primary application on AWS and runs selected data processing workloads on Google Cloud. It needs secure connectivity, consistent access controls, and a plan for data movement and operational monitoring.
 
---
+---
 
 ## 📊 7. Comparison of Deployment Models
 
@@ -445,7 +445,7 @@ Consider these questions before selecting a model:
 6. **Connectivity:** Must cloud resources integrate with on-premises systems?
 7. **Resilience:** What recovery time and data-loss limits are acceptable?
 
---
+---
 # Top 7 Privacy Challenges in Cloud Computing
 
 The rapid development of cloud computing has led to greater flexibility, cost reduction, and scalability of products. However, it also presents numerous privacy and security challenges. Since cloud computing is continuously evolving, new security issues may emerge and must be addressed as soon as they are discovered.
